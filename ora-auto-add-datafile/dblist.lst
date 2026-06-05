@@ -1,0 +1,17 @@
+###########################################################################
+# Format:
+#
+# TNS_ALIAS|DNS_SERVER
+#
+# Examples:
+#
+# Non-CDB
+# FINDEV01|devdb01.company.com
+#
+# CDB
+# FINDVC01|devcdb01.company.com
+#
+###########################################################################
+
+FINDEV01|devdb01.company.com
+FINDVC01|devcdb01.company.com
