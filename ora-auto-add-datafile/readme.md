@@ -224,13 +224,13 @@ CDB_IDENTIFIER = "pdc"
 ### Non-CDB
 
 ```text
-oraadmin
+dba
 ```
 
 ### CDB
 
 ```text
-C##oraadmin
+C##dba
 ```
 
 ---
@@ -266,6 +266,30 @@ Designed for gradual scaling after validation.
 * AI-assisted capacity forecasting
 
 ---
+
+# Complete Flow 
+Python/
+└── ora-auto-add-datafile/
+    │
+    ├── README.md
+    ├── requirements.txt
+    ├── config.py
+    ├── db_list.lst
+    ├── generate_datafiles.py
+    │
+    ├── docs/
+    │   ├── architecture.md
+    │   ├── phase1a.md
+    │   ├── phase1b.md
+    │   ├── phase1c.md
+    │   ├── phase2.md
+    │   └── phase3.md
+    │
+    ├── output/
+    │   └── .gitkeep
+    │
+    └── screenshots/
+        └── .gitkeep
 
 # Author
 
